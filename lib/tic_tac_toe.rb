@@ -99,7 +99,7 @@ until over?
   turn
 end
 if won?
-  puts "Congratulation #{winner(board)}!"
+  puts "Congratulations #{winner(board)}!"
 else
   puts "Cat's Game!"
 end
