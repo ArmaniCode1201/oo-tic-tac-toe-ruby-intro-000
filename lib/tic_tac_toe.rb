@@ -100,7 +100,7 @@ until over?
 end
 if won?
   puts "Congratulation #{winner(board)!}!"
-else 
+else
   puts "Cat's Game"
 end
 end
