@@ -93,12 +93,12 @@ def winner
   end
 end
 
-def play
-until over?
+def play(board)
+until over?(board)
   current_player
   turn
 end
-if won?
+if won?(board)
   puts "Congratulations #{winner(board)}!"
 else
   puts "Cat's Game!"
