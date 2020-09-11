@@ -93,7 +93,7 @@ def winner
   end
 end
 
-def play
+def play(board)
 until over?(board)
   current_player
   turn
