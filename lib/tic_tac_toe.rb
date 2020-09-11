@@ -101,7 +101,7 @@ end
 if won?
   puts "Congratulation #{winner(board)!}!"
 else
-  puts "Cat's Game"
+  puts "Cat's Game!"
 end
 end
 
