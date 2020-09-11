@@ -94,10 +94,14 @@ def winner
 end
 
 def play
-puts "Please enter a number between 1-9:"
 until over?
   current_player
   turn
+end
+if won?
+  puts "Congratulation #{winner(board)!}!"
+else 
+  puts "Cat's Game"
 end
 end
 
