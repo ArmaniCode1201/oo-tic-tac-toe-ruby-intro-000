@@ -94,7 +94,7 @@ def winner
 end
 
 def play(index)
-until over?(index)
+until over?
   current_player
   turn
 end
